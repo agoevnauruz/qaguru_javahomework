@@ -29,6 +29,16 @@ public class Base {
         System.out.println(del);
 
         System.out.println(1+1.5);
+
+        long longValue = 7_233_371_036_854_775_808L;
+        float floatValue = 445F;
+        double doubleValue = 332.99;
+        boolean booleanValue = true;
+
+        System.out.println("Example of long: " + longValue);
+        System.out.println("Example of float: " + floatValue);
+        System.out.println("Example of double: " + doubleValue);
+        System.out.println("Example of boolean: " + booleanValue);
     }
 
 }
